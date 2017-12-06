@@ -1,0 +1,22 @@
+#main_image {
+	width: 300px;
+	height: auto;
+	float: left;
+	margin: 0 24px 12px 0;
+}
+
+.main_body {
+	float: left;
+}
+
+.icon {
+	width: 80px;
+	height: auto;
+	margin: 8px;
+}
+
+.port_image {
+	width: 360px;
+	height: auto;
+	margin: 8px;
+}
