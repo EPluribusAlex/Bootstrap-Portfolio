@@ -1,26 +1,22 @@
 body {
 	background-image: url(../images/background.jpg);
 }
+/*main bio image*/
 #main_image {
 	width: 300px;
 	height: auto;
 	float: left;
 	margin: 0 24px 12px 0;
 }
-
+/*image & main text*/
 .main_body {
 	float: left;
 }
-
+/*connect with me icons*/
 .icon {
 	width: 64px;
 	height: auto;
 	margin: 10px 8px 24px 8px;
-}
-
-.port_image {
-	width: 305px;
-	height: auto;
 }
 
 .footer {
@@ -42,7 +38,7 @@ body {
 	color: white;
 	font-family: 'Cookie', cursive;
 }
-
+/*navbar links*/
 .navbar-right {
 	font-size: 20px;
 	margin-top: 28px;
@@ -55,26 +51,27 @@ body {
 .container-fluid {
 	width: 76%;
 }
-
+/*container with main bio*/
 .box1 {
 	border: 1px solid black;
 	background-color: white;
 	margin: 20px;
+	margin-bottom: 40px;
 	padding: 0 30px 0 30px;
 }
-
+/*connect with me container*/
 .box2 {
 	border: 1px solid black;
 	background-color: white;
 	margin: 20px;
 	padding: 0 20px 0 20px;
 }	
-
+/*main feature heading for each page*/
 .heading1 {
 	border-bottom: 2px solid #dddddd;
 	color: #4aaaa5;
 }
-
+/*heading for connect with me*/
 .heading2 {
 	border-bottom: 2px solid #dddddd;
 	color: #4aaaa5;
@@ -93,7 +90,7 @@ h2 {
 input {
 	margin-bottom: 20px;
 }
-
+/*submit button*/
 .btn-info {
 	color: #ffffff;
 	width: 125px;
@@ -102,11 +99,16 @@ input {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	margin-top: 20px;
 }
-
+/*thumbnail for portfolio images*/
 .thumbnail {
     position: relative;
 }
-
+/*portfolio images*/
+.port_image {
+	width: 305px;
+	height: auto;
+}
+/*portfolio image captions*/
 .caption {
     position: absolute;
     top: 60%;
@@ -114,7 +116,7 @@ input {
     left: 10%;
     background-color: #4aaaa5;
 }
-
+/*portfolio image text*/
 .description {
 	color: white;
 }
